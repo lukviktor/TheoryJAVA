@@ -1,4 +1,4 @@
-package UITestingSprint_1;
+package UITesting.Sprint_1;
 
 import org.junit.jupiter.api.Test;
 

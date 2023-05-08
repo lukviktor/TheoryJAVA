@@ -1,6 +1,25 @@
 package UITestingSprint_1;
 
+import org.junit.jupiter.api.Test;
+
 public class ConditionalOperators {
+    @Test
+    public void conditionalOperators() {
+        boolean isFalse = false; // задали переменной isFalse значение «ложь»
+        boolean isTrue = 50 > 0; // в переменной isTrue хранится значение true, потому что 50 больше 0
+        System.out.println(isFalse);
+        System.out.println(isTrue);
+    }
+
+    @Test
+    public void apple(){
+        boolean isAppleRed = false; // в переменной типа boolean задали условие: яблоки – красные
+        if(isAppleRed) { // если условие выполняется,
+            System.out.println("Купить яблоки"); // напечатается "Купить яблоки".
+        }
+        System.out.println("Пойти домой"); // "Пойти домой" напечатается в любом случае
+    }
+
     /*
     Оператор	Значение
     ==	        равно
